@@ -31,37 +31,37 @@ function makeSound(key){
 
 	  switch(key){
 	  	case "w":
-	  		var crash = new Audio("file:///Volumes/apple/%E5%89%8D%E7%AB%AF%E8%AA%B2%E7%A8%8B/[Angela%20Yu]%20Udemy%20-%20The%20Complete%202019%20Web%20Development%20Bootcamp/12.%20Advanced%20Javascript%20and%20DOM%20Manipulation/Drum%20Kit%20Starting%20Files/sounds/crash.mp3")
+	  		var crash = new Audio("sounds/crash.mp3")
 	  		crash.play();
 	  		break;
 
 	  	case "a":
-	  		var kickbass = new Audio("file:///Volumes/apple/%E5%89%8D%E7%AB%AF%E8%AA%B2%E7%A8%8B/[Angela%20Yu]%20Udemy%20-%20The%20Complete%202019%20Web%20Development%20Bootcamp/12.%20Advanced%20Javascript%20and%20DOM%20Manipulation/Drum%20Kit%20Starting%20Files/sounds/kick-bass.mp3")
+	  		var kickbass = new Audio("sounds/kick-bass.mp3")
 	  		kickbass.play();
 	  		break;
 
 	  	case "s":
-	  		var snare = new Audio("file:///Volumes/apple/%E5%89%8D%E7%AB%AF%E8%AA%B2%E7%A8%8B/[Angela%20Yu]%20Udemy%20-%20The%20Complete%202019%20Web%20Development%20Bootcamp/12.%20Advanced%20Javascript%20and%20DOM%20Manipulation/Drum%20Kit%20Starting%20Files/sounds/snare.mp3")
+	  		var snare = new Audio("sounds/snare.mp3")
 	  		snare.play();
 	  		break;
 
 	  	case "d":
-	  		var tom1 = new Audio("file:///Volumes/apple/%E5%89%8D%E7%AB%AF%E8%AA%B2%E7%A8%8B/[Angela%20Yu]%20Udemy%20-%20The%20Complete%202019%20Web%20Development%20Bootcamp/12.%20Advanced%20Javascript%20and%20DOM%20Manipulation/Drum%20Kit%20Starting%20Files/sounds/tom-1.mp3")
+	  		var tom1 = new Audio("sounds/tom-1.mp3")
 	  		tom1.play();
 	  		break;
 
 	  	case "j":
-	  		var tom2 = new Audio("file:///Volumes/apple/%E5%89%8D%E7%AB%AF%E8%AA%B2%E7%A8%8B/[Angela%20Yu]%20Udemy%20-%20The%20Complete%202019%20Web%20Development%20Bootcamp/12.%20Advanced%20Javascript%20and%20DOM%20Manipulation/Drum%20Kit%20Starting%20Files/sounds/tom-2.mp3")
+	  		var tom2 = new Audio("sounds/tom-2.mp3")
 	  		tom2.play();
 	  		break;
 
 	  	case "k":
-	  		var tom3 = new Audio("file:///Volumes/apple/%E5%89%8D%E7%AB%AF%E8%AA%B2%E7%A8%8B/[Angela%20Yu]%20Udemy%20-%20The%20Complete%202019%20Web%20Development%20Bootcamp/12.%20Advanced%20Javascript%20and%20DOM%20Manipulation/Drum%20Kit%20Starting%20Files/sounds/tom-3.mp3")
+	  		var tom3 = new Audio("sounds/tom-3.mp3")
 	  		tom3.play();
 	  		break;
 
 	  	case "l":
-	  		var tom4 = new Audio("file:///Volumes/apple/%E5%89%8D%E7%AB%AF%E8%AA%B2%E7%A8%8B/[Angela%20Yu]%20Udemy%20-%20The%20Complete%202019%20Web%20Development%20Bootcamp/12.%20Advanced%20Javascript%20and%20DOM%20Manipulation/Drum%20Kit%20Starting%20Files/sounds/tom-4.mp3")
+	  		var tom4 = new Audio("sounds/tom-4.mp3")
 	  		tom4.play();
 	  		break;
 
@@ -88,5 +88,3 @@ setTimeout(function(){
 
 
 
-//var audio = new Audio("file:///Volumes/apple/%E5%89%8D%E7%AB%AF%E8%AA%B2%E7%A8%8B/[Angela%20Yu]%20Udemy%20-%20The%20Complete%202019%20Web%20Development%20Bootcamp/12.%20Advanced%20Javascript%20and%20DOM%20Manipulation/Drum%20Kit%20Starting%20Files/sounds/tom-1.mp3");
-//audio.play();
